@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+        <link rel="stylesheet" href="frame.css">
+        <title>Frame</title>
+    </head>
+    <body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <div>
+            <div class="chat z-depth-1" id="chat"></div>
+            <form onsubmit="return sendMessage()" autocomplete="off">
+                <div class="input-wrapper">
+                    <input type="text" name="text" id="input">
+                    <button class="waves-effect waves-light btn-small red lighten-2 send-button" type="submit" name="action">
+                        <i class="material-icons">send</i>
+                    </button>
+                </div>
+            </form>
+        </div>
+        <script src="frame.js"></script>
+    </body>
+</html>
