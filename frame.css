@@ -10,10 +10,11 @@ html {
 }
 
 .chat {
+    word-break: break-word;
     border: 1px solid #888;
     overflow: auto;
     margin: 10px;
-    font-size: 17px;
+    font-size: 14px;
     height: 70vh;
     padding: 5px;
 }
